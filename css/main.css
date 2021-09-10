@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+section div {
+  width: 25%;
+  background-color: #e2e2e2;
+}
+
+section div:last-child {
+  background-color: #f2f2f2;
+}
