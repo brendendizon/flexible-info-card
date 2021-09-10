@@ -1,8 +1,6 @@
 section {
   display: flex;
   /* border: 1px solid red; */
-  justify-content: space-around;
-  align-items: center;
 }
 
 section div {
@@ -12,4 +10,12 @@ section div {
 
 section div:last-child {
   background-color: #f2f2f2;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
