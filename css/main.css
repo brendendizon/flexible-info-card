@@ -1,5 +1,13 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+li {
+  display: flex;
 }
