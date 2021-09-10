@@ -1,21 +1,5 @@
-section {
-  display: flex;
-  /* border: 1px solid red; */
-}
-
-section div {
-  width: 25%;
-  background-color: #e2e2e2;
-}
-
-section div:last-child {
-  background-color: #f2f2f2;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, serif;
+  line-height: 1.5;
 }
