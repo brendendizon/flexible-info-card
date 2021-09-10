@@ -8,6 +8,32 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #ccc;
+  margin: 0;
+}
+
 li {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+img {
+  width: 5em;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+p {
+  width: 24rem;
+}
+
+a {
+  color: #ccc;
+  background-color: #444;
+  padding: .5rem 1rem .6rem;
 }
